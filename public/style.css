@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poltawski Nowy', serif;
+}
+
+
+
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  animation: animateBg 14s linear infinite;
+  background-image: linear-gradient(90deg,#41b497,#7f47c5,#c29c46,#41b497,#7f47c5);
+  background-size: 400% 100%;
+  display:flex; 
+  justify-content: space-around 
+  
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+} 
+ 
+h1 {
+  font-weight:900 
+}
+  
+
+img{
+  height: 300px;
+}
+
+.animated-gradient {
+  animation: animateBg 14s linear infinite;
+  background-image: linear-gradient(90deg,#41b497,#7f47c5,#c29c46,#41b497,#7f47c5);
+  background-size: 400% 100%;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 0%; }
+}  
+
+.btn  {
+  font-size: 20px;
+  color:antiquewhite; 
+} 
+
